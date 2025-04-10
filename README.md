@@ -121,7 +121,7 @@ cat encrypted_file.txt  # Only accessible with the correct decryption key
 ## Implementation Details 
 
 - Built using **FUSE API** to manage user-space file operations.
-- Derived from **ENCRYPTED\_FUSE** ([Less Simple, Yet Stupid Filesystem](https://github.com/MaaSTaaR/ENCRYPTED_FUSE)), with enhancements including:
+- Derived from [LSYSFS](https://github.com/MaaSTaaR/LSYSFS), with enhancements including:
   - **File & directory deletion support**
   - **AES-256 encryption using OpenSSL**
   - **Key-based file access control**
